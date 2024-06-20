@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+padding: 0;}
+header{
+    background-color: #FCDB00;
+    
+}
+.hero{
+    display: flex;
+    height: 320px;
+}
+.gap{
+    width: 10%;
+}
+.logo{
+    width: 40%;
+}
+.list ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.list{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    
+}
+ li{
+    margin-right: 50px;
+    font-weight: bold;
+ }
+ .container{
+    height: 477px;
+    display: flex;
+    align-items: center;
+
+ }
+ .write{
+    width: 40%;
+    margin-left: 110px;  ;
+    
+ }
+ .gap1{
+width: 20%;
+ }
+ .phone{
+    margin-left: 150px;
+ }
+ i{
+    font-size: 30px;
+ }
+ .bb{
+    display: flex;
+ }
+ .gap4{
+    width: 235px;
+ }
+ .bb1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 970px;
+ }
+.hero1, .hero2{
+    margin-top: 65px;
+}
+.hero2{
+    display: flex;
+    height: 405px;
+}
+.con{
+    
+    width:970px ;
+    display: grid;
+    grid-template-rows: 1fr 1fr  1fr;
+    grid-template-columns:75px 75px 75px ;
+    grid-template-areas: "a a a a b b b b c c c c"
+    "d d d d e e e e f f f f";
+}
+.bo1{
+    grid-area: a;
+    
+}
+.bo2{
+    grid-area: b;
+}
+.bo3{
+    grid-area: c;
+}
+.bo4{
+    grid-area: d;
+}
+.bo5{
+    grid-area: e;
+}
+.bo6{
+    grid-area:f;
+}
+.bo9{
+    display: flex;
+    height: 50px;
+}
+.bo0{
+    width: 50%;
+    height: 100%;
+}
+footer{
+    height: 600px;
+    
+    background-color: black;
+}
+.upper{
+    padding-top: 50px;
+}
+.hea{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.hea h1{
+    color: yellow;
+}
+.hea p{
+    color: beige;
+}
+
+.foot{
+    padding-top: 50px;
+}
+.foot .e{
+    height: 30px;
+    width: 300px;
+}
+.m{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.foot .s{
+    background-color: yellow;
+    height: 35px;
+    width: 65px;
+}
+.middle i{
+    background-color: #FCDB00;
+    border-radius: 5px;
+}
+.middle{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.end{
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.pa1,.pa2,.pa3,.pa4,.pa5{
+    width: 150px;
+}
+.pa2 ul{
+    list-style-type: none;
+    
+}
+
+.pa3 ul{
+    list-style-type: none;
+    
+}
+.pa4 ul{
+    list-style-type: none;
+    
+}
+.pa5 ul{
+    list-style-type: none;
+    
+}
+
+ul li{
+    font-weight: lighter;
+}
